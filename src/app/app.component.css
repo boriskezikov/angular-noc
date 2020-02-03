@@ -1,0 +1,47 @@
+.customerViewTrue{
+    height: 300px;
+    width: 150px;
+    background: #49ed24;
+    margin: 50px;
+    float: left;
+    display: block;
+    border-radius: 10px;
+}
+.customerViewFalse{
+    height: 300px;
+    width: 150px;
+    background: #ed0c0c;
+    margin: 50px;
+    float: left;
+    display: block;
+    border-radius: 10px;
+
+}
+
+.ticketInfoG{
+    height: 30px;
+    width: 150px;
+    margin-top: -20%;
+    background: #ddfad7;
+    float: center;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.ticketInfoR{
+    height: 30px;
+    width: 150px;
+    margin-top: -20%;
+    background: #fad7d7;
+    float: center;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.error_view_button{
+    width: inherit;
+    height: 20px;
+    vertical-align: middle;
+
+}
