@@ -1,0 +1,13 @@
+tr.fail {
+  background-color: lightcoral;
+}
+
+tr.norm {
+  background-color: lightgreen;
+}
+
+.error_view_button{
+  width: 150px;
+  height: 20px;
+  vertical-align: middle;
+}

@@ -22,12 +22,12 @@ export interface ResponseData {
 
 export interface Service {
     id: String
-    name: String
+    name: string
     serviceStatus: ServiceStatus
 }
 export interface ServiceStatus {
     id: String
-    name: String
+    name: string
 
 }
 export interface CustomerStatus{
