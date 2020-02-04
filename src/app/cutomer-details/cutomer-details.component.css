@@ -7,17 +7,25 @@ tr.norm {
 }
 
 .error_view_button{
-  width: 150px;
-  height: 20px;
-  vertical-align: middle;
   text-decoration: none;
-  /* color: #fff; цвет текста */
-  /* background: rgb(212,75,56); фон кнопки */
+  height: 30px;
+  width: 150px;
+  margin-top: -10%;
+  background: #fad7d7;
+  float: center;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  outline: none;
+  border: 0;
+
 
 
 }
 .error_view_button:hover{
   background: #fff;
   color: black;
+  
 }
+
 

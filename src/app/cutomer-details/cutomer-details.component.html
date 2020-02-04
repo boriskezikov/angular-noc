@@ -1,5 +1,7 @@
+<div class="ticketInfoR">
+  <button class="error_view_button" type="button" (click)="toggleShow()" >{{customer.firstName}} {{customer.lastName}}</button>
+</div>
 <div>
-  <button class="error_view_button" type="button" (click)="toggleShow()" >View details</button>
   <div *ngIf="show" style="width: 150px;">
     <table style="border: solid; width: 150px;">
       <tr *ngFor="let service of customer.services"
