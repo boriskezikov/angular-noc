@@ -1,0 +1,23 @@
+tr.fail {
+  background-color: lightcoral;
+}
+
+tr.norm {
+  background-color: lightgreen;
+}
+
+.error_view_button{
+  width: 150px;
+  height: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  /* color: #fff; цвет текста */
+  /* background: rgb(212,75,56); фон кнопки */
+
+
+}
+.error_view_button:hover{
+  background: #fff;
+  color: black;
+}
+

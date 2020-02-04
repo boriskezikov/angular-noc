@@ -1,0 +1,12 @@
+<div>
+  <button class="error_view_button" type="button" (click)="toggleShow()" >View details</button>
+  <div *ngIf="show" style="width: 150px;">
+    <table style="border: solid; width: 150px;">
+      <tr *ngFor="let service of customer.services"
+        [class.fail]="service.serviceStatus.name === 'FAIL'"
+        [class.norm]="service.serviceStatus.name === 'NORMAL'">
+        <td style="width: 120px;">{{service.name}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
