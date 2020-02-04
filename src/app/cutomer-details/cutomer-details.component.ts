@@ -7,6 +7,7 @@ import { Customer, Service } from '../Customer';
   styleUrls: ['./cutomer-details.component.css']
 })
 export class CutomerDetailsComponent implements OnInit {
+  
   @Input() customer: Customer;
   show = false;
 

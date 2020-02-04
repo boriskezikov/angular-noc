@@ -1,9 +1,6 @@
 <div *ngFor="let customer of customerDtos">
   <form class="customerViewTrue" *ngIf="customer.customerStatus; else templateName">
-    <div class="ticketInfoG">
-      <p>{{customer.firstName}} {{customer.lastName}}</p>
-
-    </div>
+      <app-cutomer-details [customer]="customer"></app-cutomer-details>
   </form>
   <ng-template #templateName>
     <form class="customerViewFalse">

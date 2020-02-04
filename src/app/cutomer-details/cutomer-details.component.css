@@ -18,12 +18,27 @@ tr.norm {
   text-align: center;
   outline: none;
   border: 0;
-}
 
+}
 .error_view_button:hover{
   background: #fff;
   color: black;
-  
 }
+.services_view_button{
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  margin-top: -10%;
+  background: #ddfad7;
+  float: center;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  outline: none;
+  border: 0;
 
-
+}
+.services_view_button:hover{
+  background: #fff;
+  color: black;
+}

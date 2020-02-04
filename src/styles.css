@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     display: inline;
+    background: rgb(247, 247, 247);
 }
 header {
     display: block; /* Для старых браузеров */

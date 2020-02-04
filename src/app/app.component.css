@@ -10,7 +10,6 @@
     border-radius: 10px;
     box-shadow: 3px 3px 10px 0px rgb(76, 123, 162);
 
-
 }
 .customerViewFalse{
     height: 150px;
@@ -24,25 +23,6 @@
     border-radius: 10px;
     box-shadow: 3px 3px 10px 0px rgb(214, 79, 79);
 }
-.ticketInfoG{
-    height: 30px;
-    width: 150px;
-    margin-top: -20%;
-    background: #ddfad7;
-    float: center;
-    display: block;
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
-}
 
-.ticketInfoR{
-    height: 30px;
-    width: 150px;
-    margin-top: -20%;
-    background: #fad7d7;
-    float: center;
-    display: block;
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
-}
+
 
