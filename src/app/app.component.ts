@@ -39,8 +39,12 @@ export class AppComponent implements OnInit {
     if (customer.customerStatus.id == "1"){
       customerDto.customerStatus = true
     }
-    else if(customer.customerStatus.id ==  "2"){
-      customerDto.customerStatus = false
+    else if(customer.customerStatus.id =="2"){
+      var tmp = false
+      customer.services.forEach(x=>{
+        tmp = (x.serviceStatus.id == "1")
+      })
+      customerDto.customerStatus = tmp
     }
     return customerDto
   }

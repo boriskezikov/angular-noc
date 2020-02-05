@@ -10,7 +10,8 @@
     <table style="border: solid; width: 150px;">
       <tr *ngFor="let service of customer.services"
         [class.fail]="service.serviceStatus.name === 'FAIL'"
-        [class.norm]="service.serviceStatus.name === 'NORMAL'">
+        [class.norm]="service.serviceStatus.name === 'NORMAL'"
+        [class.maint]="service.serviceStatus.name === 'UNDER_MAINT'">
         <td style="width: 120px;">{{service.name}}</td>
       </tr>
     </table>

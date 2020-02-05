@@ -5,6 +5,10 @@ tr.fail {
 tr.norm {
   background-color: lightgreen;
 }
+tr.maint{
+  background-color: lightyellow;
+
+}
 
 .error_view_button{
   text-decoration: none;
